@@ -3,7 +3,7 @@ var playlist = { 'SageFrancis': 'MakeShift Patriot',
                   'Vinnie Paz': 'Role of life'};
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist['artistName'] = 'songTitle';
+  playlist[artistName] = songTitle;
   return playlist;
 }
 function removeFromPlaylist(playlist, Sole) {
