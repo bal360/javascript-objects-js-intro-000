@@ -1,5 +1,5 @@
 var playlist = { SageFrancis: "MakeShift Patriot" };
-function updatePlayList(playlist, key, value) {
-  playlist[key] = value;
+function updatePlayList(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle;
   return playlist;
 }
