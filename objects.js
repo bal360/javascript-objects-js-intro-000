@@ -3,5 +3,6 @@ var playlist = { 'SageFrancis': 'MakeShift Patriot',
                   'Vinnie Paz': 'Role of life'};
 
 function updatePlaylist(playlist, Ceschi, SayNoMore) {
-  return Object.assign({}, playlist, { [Ceschi]: SayNoMore});
+  playlist.Ceschi = 'SayNoMore';
+  return playlist;
 }
