@@ -8,4 +8,5 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 function removeFromPlaylist(playlist, Slowdive) {
   delete playlist.Slowdive;
+  return playlist;
 }
